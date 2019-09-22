@@ -24,7 +24,8 @@ for n=1:4
     height = heights(n);
     
     fprintf("%10s\n",cities(n));
-    fprintf("x: %.2f, y: %.2f, z: %.2f\n\n",llh2xyz([lat,long,height]))
-    fprintf("C_ECEF^TAN = \n%7.3f%7.3f%7.3f\n%7.3f%7.3f%7.3f\n%7.3f%7.3f%7.3f\n",fromEcef2Tan(lat,long));
+%     fprintf("x: %.2f, y: %.2f, z: %.2f\n\n",llh2xyz([lat,long,height]))
+    fprintf("%.2f \t %.2f \t %.2f\n\n",llh2xyz([lat,long,height]))
+    fprintf("C_ECEF^TAN = \n%.5f\t%.5f\t%.5f\n%.5f\t%.5f\t%.5f\n%.5f\t%.5f\t%.5f\n",fromEcef2Tan(lat,long));
 end
 

@@ -22,7 +22,7 @@ for angleInd = 1:size(angles,2)
     for cornerInd = 1:4
         body = corners(:,cornerInd);
         tang = offset + Cbn * body;
-        fprintf("\t%8.2f%8.2f%8.2f\n",tang);
+        fprintf("%.2f\t%.2f\t%.2f\n",tang);
     end
 end
         
