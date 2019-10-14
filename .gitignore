@@ -1,5 +1,9 @@
+# matlab files
 *.m~
+*.slxc
+**/slprj/
 *.asv
 *.pdf
 *.docx
 *.doc
+lectureNotes/
