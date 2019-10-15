@@ -26,6 +26,6 @@ for tau = taus
     figure
     plot(biasDelH)
     hold on
-    yline(tau*tau*bias,'--r')
+    yline(tau*tau*bias,'--r');
 end
 

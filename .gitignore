@@ -3,7 +3,15 @@
 *.slxc
 **/slprj/
 *.asv
+*.autosave
+
+
 *.pdf
 *.docx
 *.doc
+*.pages
+
+*.jpg
+*.png
+
 lectureNotes/
